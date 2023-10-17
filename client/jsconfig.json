@@ -1,0 +1,6 @@
+{
+  "compilerUptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
