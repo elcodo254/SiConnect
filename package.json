@@ -29,5 +29,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Fullstack MERN app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/elcodo254/SiConnect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elcodo254/SiConnect/issues"
+  },
+  "homepage": "https://github.com/elcodo254/SiConnect#readme"
 }
