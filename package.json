@@ -9,10 +9,6 @@
     "start": "node server/index.js",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/elcodo254/SiConnect.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
