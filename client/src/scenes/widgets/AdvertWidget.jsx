@@ -1,4 +1,5 @@
 import { Typography, useTheme } from "@mui/material";
+import { useSelector } from "react-redux";
 import FlexBetween from "../../components/FlexBetween";
 import WidgetWrapper from "../../components/WidgetWrapper";
 
@@ -7,6 +8,7 @@ const AdvertWidget = () => {
   const dark = palette.neutral.dark;
   const main = palette.neutral.main;
   const medium = palette.neutral.medium;
+  const URL = useSelector((state) => state.URL);
 
   return (
     <WidgetWrapper>
@@ -20,7 +22,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="http://localhost:3001/assets/info4.jpeg"
+        src=`${URL}/info4.jpeg`
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
