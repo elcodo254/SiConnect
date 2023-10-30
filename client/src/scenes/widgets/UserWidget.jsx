@@ -20,10 +20,9 @@ const UserWidget = ({ userId, picturePath }) => {
   const dark = palette.neutral.dark;
   const medium = palette.neutral.medium;
   const main = palette.neutral.main;
-  const URL = useSelector((state) => state.URL);
 
   const getUser = async () => {
-    const response = await fetch(`${URL}/users/${userId}`, {
+    const response = await fetch(`/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
