@@ -12,7 +12,6 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const { _id } = useSelector((state) => state.user);
   const token = useSelector((state) => state.token);
   const friends = useSelector((state) => state.user.friends);
-  const URL = useSelector((state) => state.URL);
   
   const { palette } = useTheme();
   const primaryLight = palette.primary.light;
@@ -24,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `${URL}/users/${_id}/${friendId}`,
+      `/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
