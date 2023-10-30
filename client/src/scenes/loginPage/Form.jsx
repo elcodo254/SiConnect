@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      'https://siconnect.onrender.com/auth/register',
+      '/auth/register',
       {
         method: "POST",
         body: formData,
