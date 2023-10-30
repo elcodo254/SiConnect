@@ -1,8 +1,6 @@
 import { Box } from "@mui/material";
-import { useSelector } from "react-redux";
 
 const UserImage = ({ image, size = "60px" }) => {
-const URL = useSelector((state) => state.URL);
   return (
     <Box width={size} height={size}>
       <img
@@ -10,7 +8,7 @@ const URL = useSelector((state) => state.URL);
         width={size}
         height={size}
         alt="user"
-        src={`${URL}/assets/${image}`}
+        src={`/assets/${image}`}
       />
     </Box>
   );
