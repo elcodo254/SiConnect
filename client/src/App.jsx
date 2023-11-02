@@ -1,5 +1,4 @@
-// installs react-router components for application
-import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom"; // installs react-router components for application
 // grab pages
 import HomePage from "./scenes/homePage";
 import LoginPage from "./scenes/loginPage";
