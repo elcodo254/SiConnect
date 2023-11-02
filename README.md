@@ -1,4 +1,4 @@
-#SiConnect, connect and share life's moments
+# SiConnect, connect and share life's moments
 A simple social media web application using MERN STACK
 
 ### Usage
