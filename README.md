@@ -2,14 +2,16 @@
 A simple social media web application using MERN STACK
 
 ### Usage
-Go to the website[SiConnect](https://siconnect.onrender.com), fill out the registration form as a first time user - uploading a photo for your profile.Use your newly acquired credential to login and voila, you can enjoy the app.
+Go to the website [SiConnect](https://siconnect.onrender.com), fill out the registration form as a first time user - uploading a photo for your profile.Use your newly acquired credential to login and voila, you can enjoy the app.
 Scroll through the feeds to see and/or other users' posts and comments and make friends in one click.Update your posts by sharing your thoughts, memories and captured moments quite easily too from your profile/home page.
 
 ### Perks of SiConnect
 - SiConnect is fully resposive.
+- Simple and easy to use
 - Secure login
 - Easy uploads(can also use pick n' drop) of pictures for user profile and posts
-- Appealing UI
+- Light and dark mode
+- Appealing UI with simless transition between components
 
 ### What's next
 Adding on new features like direct messages, share video, gifs and documents.
