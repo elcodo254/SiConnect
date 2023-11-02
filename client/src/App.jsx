@@ -1,7 +1,10 @@
+// installs react-router components for application
 import { BrowserRouter, Navigate, Routes, Route } from "react-router-dom";
+// grab pages
 import HomePage from "./scenes/homePage";
 import LoginPage from "./scenes/loginPage";
 import ProfilePage from "./scenes/profilePage";
+// grab theme settings
 import { useMemo } from "react";
 import { useSelector } from "react-redux";
 import { CssBaseline, ThemeProvider } from "@mui/material";
